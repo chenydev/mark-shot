@@ -80,12 +80,6 @@ Mod+Shift+S { spawn "mark-shot"; }
 - `Ctrl+S` or `Enter` saves the edited selection.
 - `Esc` exits.
 
-## Packaging
-
-The Arch Linux packaging template is in `packaging/aur/PKGBUILD`. The GitHub workflow `.github/workflows/aur-publish.yml` publishes the AUR package when a GitHub release is published or when the workflow is run manually with a tag such as `v0.1.0`.
-
-The AUR workflow expects the repository secret `AUR_SSH_PRIVATE_KEY` to contain an SSH key that can push to `ssh://aur@aur.archlinux.org/mark-shot.git`.
-
 ## License
 
 MIT License.

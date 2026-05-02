@@ -80,12 +80,6 @@ Mod+Shift+S { spawn "mark-shot"; }
 - `Ctrl+S` 或 `Enter` 保存编辑后的选区。
 - `Esc` 退出。
 
-## 打包
-
-Arch Linux 打包模板位于 `packaging/aur/PKGBUILD`。GitHub 工作流 `.github/workflows/aur-publish.yml` 会在发布 GitHub Release 时更新 AUR 包，也支持手动传入 `v0.1.0` 这类标签运行。
-
-AUR 工作流需要仓库 secret `AUR_SSH_PRIVATE_KEY`，内容为可推送到 `ssh://aur@aur.archlinux.org/mark-shot.git` 的 SSH 私钥。
-
 ## 许可证
 
 MIT License。
